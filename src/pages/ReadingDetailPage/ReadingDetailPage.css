@@ -1,0 +1,26 @@
+.reading-text-card { margin: 14px 0 20px 0; }
+.reading-text { font-size: 16px; line-height: 1.6; margin: 0; }
+.reading-q-title { font-size: 17px; font-weight: 700; margin: 0 0 10px 0; }
+.reading-question { margin-bottom: 12px; }
+.reading-q-text { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.reading-options { display: flex; flex-direction: column; gap: 8px; }
+
+.reading-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  background: var(--ios-gray6);
+  border-radius: var(--radius-sm);
+  padding: 11px 13px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ios-label);
+}
+.reading-option.selected { background: #E5F1FF; border: 1.5px solid var(--ios-blue); }
+.reading-option.correct { background: var(--ios-green); color: #fff; }
+.reading-option.wrong { background: var(--ios-red); color: #fff; }
+
+.result-block { text-align: center; margin-top: 8px; }
+.result-score { font-size: 32px; font-weight: 800; color: var(--ios-blue); }
+.result-label { font-size: 13px; color: var(--ios-secondary-label); margin-bottom: 14px; }

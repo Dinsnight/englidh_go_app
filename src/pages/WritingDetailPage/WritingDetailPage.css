@@ -1,0 +1,19 @@
+.writing-prompt-card { margin: 14px 0 14px 0; }
+.writing-prompt-label { font-size: 11px; font-weight: 700; color: var(--ios-orange); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.writing-textarea {
+  width: 100%;
+  min-height: 220px;
+  background: var(--ios-card);
+  border-radius: var(--radius-lg);
+  padding: 14px;
+  font-size: 15px;
+  line-height: 1.6;
+  border: none;
+  outline: none;
+  resize: vertical;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  color: var(--ios-label);
+}
+.writing-footer { display: flex; justify-content: space-between; align-items: center; margin: 10px 2px 14px 2px; }
+.word-count { font-size: 12px; font-weight: 600; color: var(--ios-secondary-label); }
+.word-count.ok { color: var(--ios-green); }

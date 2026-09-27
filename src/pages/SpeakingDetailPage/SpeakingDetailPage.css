@@ -1,0 +1,19 @@
+.speak-tags { display: flex; gap: 8px; }
+.speak-stage-card {
+  margin-top: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 28px 16px;
+}
+.speak-timer { font-size: 40px; font-weight: 800; color: var(--ios-purple); letter-spacing: -1px; }
+.speak-stage-card.recording .speak-timer { color: var(--ios-red); }
+.speak-stage-label { font-size: 13px; color: var(--ios-secondary-label); font-weight: 600; margin-bottom: 6px; }
+.speak-rec-dot {
+  width: 12px; height: 12px; border-radius: 50%; background: var(--ios-red);
+  animation: pulse 1s infinite ease-in-out;
+}
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.speak-audio { width: 100%; margin: 6px 0; }

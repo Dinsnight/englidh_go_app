@@ -1,0 +1,9 @@
+.vocab-set-card { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.vocab-set-icon {
+  width: 42px; height: 42px; border-radius: 13px;
+  background: linear-gradient(135deg, #AF52DE, #5AC8FA);
+  display: flex; align-items: center; justify-content: center;
+}
+.vocab-set-title { font-size: 15px; font-weight: 700; margin-bottom: 5px; }
+.vocab-set-meta { display: flex; align-items: center; gap: 8px; }
+.vocab-set-progress { font-size: 11px; color: var(--ios-secondary-label); font-weight: 600; }
