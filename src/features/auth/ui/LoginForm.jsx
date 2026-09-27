@@ -22,7 +22,7 @@ export default function LoginForm({ onSuccess }) {
     }
 
     // Проверка логина и пароля
-    if (enteredUsername !== 'Badriddin' || enteredPassword !== '12345') {
+    if (enteredUsername !== 'Badriddindev' || enteredPassword !== '12345') {
       setError('Неверный логин или пароль')
       return
     }
